@@ -1,5 +1,22 @@
 Required Notice: Copyright (c) 2026 0Zero-ctrl
 
+Required Notice: This software may not be used to train, fine-tune, or evaluate any machine learning or artificial intelligence model, or be included in any dataset intended for such use.
+
+# License
+
+This software is licensed under the PolyForm Noncommercial License 1.0.0, reproduced below, with the following additional restriction. The additional restriction is part of these terms, and the licensor grants no license for any use it prohibits.
+
+## Additional Restriction: No AI Training
+
+Notwithstanding anything in the PolyForm Noncommercial License 1.0.0, no purpose is a permitted purpose, and you may not use the software or any part of it, if that use is to:
+
+1. train, fine-tune, or evaluate any machine learning or artificial intelligence model, including large language models and code generation models; or
+2. include the software or any part of it in any dataset, corpus, or collection intended for any use described in item 1.
+
+This restriction applies to the software in source, compiled, or any other form, and to any changes and new works based on it.
+
+---
+
 # PolyForm Noncommercial License 1.0.0
 
 <https://polyformproject.org/licenses/noncommercial/1.0.0>
