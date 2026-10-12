@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fce220abad53b44e8250b9b935679d7, type: 3}
+  m_Name: Whitesand Dunes
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeConfig
+  placement: 0
+  regionSize: 600
+  regionRarity: 0.08
+  temperature: 0.38
+  humidity: 0
+  baseHeight: 31
+  heightScale: 4
+  noiseScale: 0.015
+  octaves: 3
+  persistence: 0.5
+  lacunarity: 2
+  ridged: 0
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  plateauHeight: 0
+  plateauNoiseScale: 0.01
+  plateauThreshold: 0.55
+  plateauEdgeWidth: 0.05
+  plateauSteps: 0
+  mountainHeight: 0
+  mountainNoiseScale: 0.008
+  mountainCoverage: 0.4
+  mountainSharpness: 1.5
+  duneHeight: 8
+  duneSpacing: 30
+  duneWind: 60
+  terraceStep: 0
+  terraceStrength: 1
+  slopeChance: 1
+  surfaceBlock: White Sand
+  subSurfaceBlock: White Sand
+  subSurfaceDepth: 6
+  deepBlock: Stone
+  bottomBlock: 
+  bottomDepth: 12
+  peakHeight: 0
+  peakBlock: 
+  underwaterSurfaceBlock: White Sand
+  waterSurfaceBlock: 
+  tintGrass: 0
+  grassColor: {r: 0.5686275, g: 0.7411765, b: 0.34901962, a: 1}
+  caves: 0.5
+  oceanBias: 0.3
+  coasts: []
+  coastWidth: 6
+  cliffHeight: 0
+  cliffJaggedness: 0.6
+  fogDistance: 1
+  fogColor: {r: 0.97, g: 0.97, b: 1, a: 0.25}
+  waveSpray: 0
+  trees: []
+  plants:
+  - block: Yucca
+    chance: 0.006
+  strataBlocks: []
+  strataThickness: 3
+  strataWarpScale: 0.02
+  strataWarpAmount: 0

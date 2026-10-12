@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3f81ee3fd9ff742b6d344cebb9f964, type: 3}
+  m_Name: WorldGenConfig
+  m_EditorClassIdentifier: Assembly-CSharp::WorldGenConfig
+  blockDatabase: {fileID: 11400000, guid: 187e07c93ac550a469c334b53d9bc174, type: 2}
+  biomes:
+  - {fileID: 11400000, guid: 9e4c5b4099fd05f45ada7305579da304, type: 2}
+  - {fileID: 11400000, guid: 63e82f858cd847cbbf356bca1775936f, type: 2}
+  - {fileID: 11400000, guid: 5997ac891c414d17b7b9c00830069996, type: 2}
+  - {fileID: 11400000, guid: 2c14f898e27d48e9a1fb1625b787344f, type: 2}
+  - {fileID: 11400000, guid: d85b97c9d8fb492583658fe7668ae31c, type: 2}
+  - {fileID: 11400000, guid: c75fbad2e9c54ca48137c84eade21ba3, type: 2}
+  - {fileID: 11400000, guid: 9188c04a380343c1bc441c7e597a160e, type: 2}
+  climateNoiseScale: 0.0012
+  climateContrast: 1
+  blendWidth: 0.2
+  seaLevel: 30
+  oceans: 1
+  oceanScale: 0.0009
+  oceanCoverage: 0.3
+  oceanDepth: 16
+  shelfWidth: 40
+  shoreRamp: 32
+  coastStretch: 90
+  slopeSmoothing: 8
+  oreManager: {fileID: 11400000, guid: 99aff22ab55e46cfa9b13509e28d81dc, type: 2}
+  caves: 1
+  caveAmount: 0.3
+  caveScale: 0.03
+  caveWidth: 0.07
+  caveMaxY: 80
+  caveEntrances: 1
+  caveEntranceChance: 0.1
+  caverns: 1
+  cavernScale: 0.02
+  cavernSize: 0.2
+  cavernMaxY: 24
+  cavernMinDepth: 20
+  forceBiome: {fileID: 0}

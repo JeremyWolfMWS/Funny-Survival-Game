@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fce220abad53b44e8250b9b935679d7, type: 3}
+  m_Name: Basalt Tropics
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeConfig
+  placement: 0
+  regionSize: 600
+  regionRarity: 0.08
+  temperature: 0.9
+  humidity: 0.85
+  baseHeight: 33
+  heightScale: 14
+  noiseScale: 0.012
+  octaves: 4
+  persistence: 0.5
+  lacunarity: 2
+  ridged: 0
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  plateauHeight: 0
+  plateauNoiseScale: 0.01
+  plateauThreshold: 0.55
+  plateauEdgeWidth: 0.05
+  plateauSteps: 0
+  mountainHeight: 25
+  mountainNoiseScale: 0.01
+  mountainCoverage: 0.35
+  mountainSharpness: 1.3
+  duneHeight: 0
+  duneSpacing: 40
+  duneWind: 30
+  terraceStep: 0
+  terraceStrength: 1
+  slopeChance: 1
+  surfaceBlock: Grass
+  subSurfaceBlock: Dirt
+  subSurfaceDepth: 2
+  deepBlock: Basalt
+  bottomBlock: Stone
+  bottomDepth: 20
+  peakHeight: 0
+  peakBlock: 
+  underwaterSurfaceBlock: Black Sand
+  waterSurfaceBlock: 
+  tintGrass: 1
+  grassColor: {r: 0.3, g: 0.78, b: 0.25, a: 1}
+  caves: 0.8
+  oceanBias: -0.6
+  coasts:
+  - biome: {fileID: 11400000, guid: 4c4f9fc4dfa54611a21f46aad18ecd69, type: 2}
+    weight: 30
+  - biome: {fileID: 11400000, guid: 6d7bef534c054af18873e90c0b863fc9, type: 2}
+    weight: 18
+  - biome: {fileID: 11400000, guid: 7accc3fda34548ffb87e2bc4c43fb6f7, type: 2}
+    weight: 14
+  - biome: {fileID: 11400000, guid: a7acb245c6ec4e1da58535fccb5bf3db, type: 2}
+    weight: 10
+  - biome: {fileID: 11400000, guid: f60dcfabc5da4cf9a94d53bbb4d16bf3, type: 2}
+    weight: 4
+  - biome: {fileID: 11400000, guid: 68af5e0e5e4e4e2fb5e44b249e13a796, type: 2}
+    weight: 7
+  - biome: {fileID: 0}
+    weight: 12
+  coastWidth: 6
+  cliffHeight: 0
+  cliffJaggedness: 0.6
+  fogDistance: 0.9
+  fogColor: {r: 0.8, g: 0.9, b: 0.95, a: 0.25}
+  waveSpray: 0
+  trees:
+  - shape: 4
+    log: Palm Log
+    leaves: Palm Leaves
+    chance: 0.006
+    minHeight: 6
+    maxHeight: 9
+    leafRadius: 4
+  plants:
+  - block: Fern
+    chance: 0.08
+  strataBlocks: []
+  strataThickness: 3
+  strataWarpScale: 0.02
+  strataWarpAmount: 0

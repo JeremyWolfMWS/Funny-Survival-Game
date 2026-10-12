@@ -1,0 +1,704 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5101774251d4844484a1fca3b341d40, type: 3}
+  m_Name: BlockDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::BlockDatabase
+  blocks:
+  - name: Grass
+    sideTexture: {fileID: 2800000, guid: 7b9bd9e8ec3ed5e41bc3a2f0deb0cbca, type: 3}
+    topTexture: {fileID: 2800000, guid: 3a357006babbc7347aad0ded4d928aeb, type: 3}
+    bottomTexture: {fileID: 2800000, guid: 03da76c6d9bd3c9408a6dd55fe2107a9, type: 3}
+    biomeTint: 1
+    plant: 0
+    hardness: 1
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Dirt
+    sideTexture: {fileID: 2800000, guid: 03da76c6d9bd3c9408a6dd55fe2107a9, type: 3}
+    topTexture: {fileID: 2800000, guid: 03da76c6d9bd3c9408a6dd55fe2107a9, type: 3}
+    bottomTexture: {fileID: 2800000, guid: 03da76c6d9bd3c9408a6dd55fe2107a9, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Stone
+    sideTexture: {fileID: 2800000, guid: f5622516678fad64f8f545b2fca5c30d, type: 3}
+    topTexture: {fileID: 2800000, guid: f5622516678fad64f8f545b2fca5c30d, type: 3}
+    bottomTexture: {fileID: 2800000, guid: f5622516678fad64f8f545b2fca5c30d, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 5
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Log
+    sideTexture: {fileID: 2800000, guid: 11ace0540942d0649a5da84720cb0d49, type: 3}
+    topTexture: {fileID: 2800000, guid: e83f69965afe1034fa7e75eb1854b872, type: 3}
+    bottomTexture: {fileID: 2800000, guid: e83f69965afe1034fa7e75eb1854b872, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 2
+    preferredTool: 2
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Leaves
+    sideTexture: {fileID: 2800000, guid: 315d0979f2794744b91f22c04c9319c1, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 1
+    plant: 0
+    hardness: 0.2
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Sand
+    sideTexture: {fileID: 2800000, guid: 98d38f003e334d0ba19c58f91ad13b2f, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Mud
+    sideTexture: {fileID: 2800000, guid: 606ffdfae80048de9d9c20996418a79a, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Tall Grass
+    sideTexture: {fileID: 2800000, guid: 269f74951ee94c8dbfab3a0ec71e297c, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 1
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 0
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Dandelion
+    sideTexture: {fileID: 2800000, guid: 61e8a9ab1ff142bf9b863b2f52900993, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Poppy
+    sideTexture: {fileID: 2800000, guid: d55955947b1d4dae9436394c46a984f6, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Sandstone
+    sideTexture: {fileID: 2800000, guid: b0052beaa2294736b7dceb7da977dd6d, type: 3}
+    topTexture: {fileID: 2800000, guid: d35596bad67a4a62ab4a4713dfdd037f, type: 3}
+    bottomTexture: {fileID: 2800000, guid: d35596bad67a4a62ab4a4713dfdd037f, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 2
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Dune Sand
+    sideTexture: {fileID: 2800000, guid: 6fee8fe8bde146ba8661e0f7214cf631, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: White Sand
+    sideTexture: {fileID: 2800000, guid: 80f80481a5b54f459390e09c64145b9a, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Bone Block
+    sideTexture: {fileID: 2800000, guid: 4dd4a4303005483a8db3e4fcd21df141, type: 3}
+    topTexture: {fileID: 2800000, guid: c3edddf47996470988d26da267bfcccc, type: 3}
+    bottomTexture: {fileID: 2800000, guid: c3edddf47996470988d26da267bfcccc, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 2
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Cactus
+    sideTexture: {fileID: 2800000, guid: 35edf665562a4194bf26f0ecef4fa77e, type: 3}
+    topTexture: {fileID: 2800000, guid: 66b22600248d4d8f9a938e38e96d4d08, type: 3}
+    bottomTexture: {fileID: 2800000, guid: 66b22600248d4d8f9a938e38e96d4d08, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.4
+    preferredTool: 2
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 1
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Dead Bush
+    sideTexture: {fileID: 2800000, guid: 26aa38f82a584f1e89b516ed0fc50be7, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Yucca
+    sideTexture: {fileID: 2800000, guid: 6b0d21b082264441918bf9ca2baba310, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Reeds
+    sideTexture: {fileID: 2800000, guid: 44600126bcd14369870b437b52110013, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Red Dirt
+    sideTexture: {fileID: 2800000, guid: fe0f0746aa0349e588ee1638316d265e, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Red Rock
+    sideTexture: {fileID: 2800000, guid: b85d29a0cb9241efb85d2fde274ba4fc, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 1.5
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Orange Rock
+    sideTexture: {fileID: 2800000, guid: 3c5c874dbfa04f6e9824afe3f66933b9, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 1.5
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Dark Red Rock
+    sideTexture: {fileID: 2800000, guid: 0213239868c141c38b0839c69ec3e3e3, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 1.5
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Cream Sandstone
+    sideTexture: {fileID: 2800000, guid: 2f9c8d9f2134431182b341f59f852202, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 1.5
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Juniper Leaves
+    sideTexture: {fileID: 2800000, guid: 22afb69ed27241218cd00694ef71c84a, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.2
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Sagebrush
+    sideTexture: {fileID: 2800000, guid: 6c98d4ad53a1422b92b862c5b029c129, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Basalt
+    sideTexture: {fileID: 2800000, guid: 8742054a753240b8838277499c139f79, type: 3}
+    topTexture: {fileID: 2800000, guid: 17cc110a684b4d4c90b01d5b6f1e4cdc, type: 3}
+    bottomTexture: {fileID: 2800000, guid: 17cc110a684b4d4c90b01d5b6f1e4cdc, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 2.5
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Palm Log
+    sideTexture: {fileID: 2800000, guid: 39053f89b79141d4ae1d2d2bebeefe47, type: 3}
+    topTexture: {fileID: 2800000, guid: 43bf7d982b554772864152b022b9392e, type: 3}
+    bottomTexture: {fileID: 2800000, guid: 43bf7d982b554772864152b022b9392e, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 2
+    preferredTool: 2
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Palm Leaves
+    sideTexture: {fileID: 2800000, guid: 5683cc05ef6d4a8e99bf6239effceead, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.2
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Fern
+    sideTexture: {fileID: 2800000, guid: 4d42dd30bec04c9ca57dfde1f5f39c79, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 1
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Black Sand
+    sideTexture: {fileID: 2800000, guid: c0d35ceecc85458580be23ae27b8ee72, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Red Sand
+    sideTexture: {fileID: 2800000, guid: 89c19ee6379945b9a6edf59ce260c3f9, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Blue Sand
+    sideTexture: {fileID: 2800000, guid: 1f76f7e3ae37491d97eb0a673260bf66, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Green Sand
+    sideTexture: {fileID: 2800000, guid: 386aef9818d14210903a140d8ebb13a7, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.5
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Coral Rubble
+    sideTexture: {fileID: 2800000, guid: 4da0b5195d6a4974bdbe8d415740f7ae, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 0.6
+    preferredTool: 3
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Dead Coral
+    sideTexture: {fileID: 2800000, guid: d242e5f2adc7422b83749e8e274e4fb8, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 1.2
+    preferredTool: 1
+    requiredTier: 1
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Bleached Coral
+    sideTexture: {fileID: 2800000, guid: 46b44e6aa45c42d2bd8046b719ac4091, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 1
+    hardness: 0
+    preferredTool: 0
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 0
+  - name: Planks
+    sideTexture: {fileID: 2800000, guid: db8da80dee6d4eb489d8e13fcef7028f, type: 3}
+    topTexture: {fileID: 0}
+    bottomTexture: {fileID: 0}
+    biomeTint: 0
+    plant: 0
+    hardness: 2
+    preferredTool: 2
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 1
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 1
+    interaction: 0
+  - name: Crafting Table
+    sideTexture: {fileID: 2800000, guid: fbb3438179474cad870bb9d0b546cb56, type: 3}
+    topTexture: {fileID: 2800000, guid: 967e819ed6bf4dc087749c9d06b3420f, type: 3}
+    bottomTexture: {fileID: 2800000, guid: db8da80dee6d4eb489d8e13fcef7028f, type: 3}
+    biomeTint: 0
+    plant: 0
+    hardness: 2.5
+    preferredTool: 2
+    requiredTier: 0
+    mineableWithoutWeavingPickaxe: 1
+    drop: 
+    dropCount: 1
+    dropChance: 1
+    waterLoggable: 0
+    slipperiness: 0
+    damagePerSecond: 0
+    slopesInCuttingTable: 0
+    interaction: 1
+  waterTexture: {fileID: 2800000, guid: 30715617e57f4dfcad1dd516ba5cfb8d, type: 3}
+  tileSize: 0
+  breakingFrames: []
+  breakingSheet: {fileID: 0}
+  breakingFrameSize: 0
