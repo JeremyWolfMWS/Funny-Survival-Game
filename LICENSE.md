@@ -1,4 +1,4 @@
-Required Notice: Copyright (c) 2026 0Zero-ctrl
+Required Notice: Copyright (c) 2026 Mystery Wolf Studios
 
 Required Notice: This software may not be used to train, fine-tune, or evaluate any machine learning or artificial intelligence model, or be included in any dataset intended for such use.
 
